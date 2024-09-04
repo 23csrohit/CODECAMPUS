@@ -1,6 +1,5 @@
-import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 
 const Contact = (props) => {
     useEffect(() => {
@@ -11,7 +10,7 @@ const Contact = (props) => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_9xwr1md', 'template_vg3kzyk', form.current, 'V5-lEkvvCs9D3VMWj')
+        emailjs.sendForm('service_3kitu8f', 'template_xi6na7c', form.current, '2AzQ6-uVXNQZRCKhf')
             .then((result) => {
                 console.log(result.text);
                 console.log("message sent");
