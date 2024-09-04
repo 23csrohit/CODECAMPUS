@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { FaLinkedin, FaTelegram, FaWhatsapp } from 'react-icons/fa';
+import { Link } from "react-router-dom";
 
 const Footer = (props) => {
   return (
@@ -25,7 +25,7 @@ const Footer = (props) => {
           <ul className="list-inline mb-0 float-md-end text-start">
               <li className="list-group mb-2 mt-2" style={{ fontSize: '20px' }}><strong>Connect With Us</strong></li>
               <li className="list-group"><Link id="cs" className="link" to="https://www.linkedin.com/in/rohityadav2/" target="_blank"><FaLinkedin style={{ fontSize: '25px' }} /> <b>LinkedIn</b></Link></li>
-              <li className="list-group my-2"><Link id="cs" className="link" to="https://wa.me/+919507488072?text=Hello How Can I help you" target="_blank"><FaWhatsapp style={{ fontSize: '25px' }} /> <b>Whatsapp</b> </Link></li>
+              <li className="list-group my-2"><Link id="cs" className="link" to="https://wa.me/+919508686231?text=Hello How Can I help you" target="_blank"><FaWhatsapp style={{ fontSize: '25px' }} /> <b>Whatsapp</b> </Link></li>
               <li className="list-group"><Link id="cs" className="link" to="https://t.me/+919508686231?" target="_blank"><FaTelegram style={{ fontSize: '25px' }} /> <b>Telegram</b></Link></li>
             </ul>
           </div>
